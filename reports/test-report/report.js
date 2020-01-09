@@ -44,29 +44,29 @@ formatter.match({
   "location": "EnumaCoursesArchive.BrowserLaunch()"
 });
 formatter.result({
-  "duration": 17031233200,
+  "duration": 37065804300,
   "status": "passed"
 });
 formatter.match({
   "location": "EnumaCoursesArchive.Login()"
 });
 formatter.result({
-  "duration": 8139347900,
+  "duration": 8477757300,
   "status": "passed"
 });
 formatter.match({
   "location": "EnumaCoursesArchive.clicks_on_Free_access_type_course_in_the_Course_dropdown()"
 });
 formatter.result({
-  "duration": 17697901600,
-  "status": "passed"
+  "duration": 72078005200,
+  "error_message": "org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome\u003d79.0.3945.88)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: \u00273.11.0\u0027, revision: \u0027e59cfb3\u0027, time: \u00272018-03-11T20:26:55.152Z\u0027\nSystem info: host: \u0027LAPTOP-RS0GUF60\u0027, ip: \u0027192.168.0.29\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\\Users\\yasee\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64792}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 969382fec67cd8e3739fc3d902e6cffb\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)\r\n\tat org.gic.lms.courses.stepDefination.EnumaCoursesArchive.clicks_on_Free_access_type_course_in_the_Course_dropdown(EnumaCoursesArchive.java:66)\r\n\tat ✽.And clicks on  courses archive in the Courses dropdown(courses.feature:6)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "EnumaCoursesArchive.ThenAllthecoursesshouldbedisplayed()"
 });
 formatter.result({
-  "duration": 147975400,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "line": 10,
@@ -105,35 +105,35 @@ formatter.match({
   "location": "EnumaOtherPaidType.BrowserLaunch()"
 });
 formatter.result({
-  "duration": 15243227200,
+  "duration": 18073717300,
   "status": "passed"
 });
 formatter.match({
   "location": "EnumaOtherPaidType.Login()"
 });
 formatter.result({
-  "duration": 8034428700,
+  "duration": 7695978900,
   "status": "passed"
 });
 formatter.match({
   "location": "EnumaOtherPaidType.OtherPaidType()"
 });
 formatter.result({
-  "duration": 16019490000,
+  "duration": 19095655100,
   "status": "passed"
 });
 formatter.match({
   "location": "EnumaOtherPaidType.PageDisplay()"
 });
 formatter.result({
-  "duration": 4027315900,
+  "duration": 4025104500,
   "status": "passed"
 });
 formatter.match({
   "location": "EnumaOtherPaidType.HeaderDisplay()"
 });
 formatter.result({
-  "duration": 17816905300,
+  "duration": 19998974000,
   "status": "passed"
 });
 formatter.scenario({
@@ -179,35 +179,35 @@ formatter.match({
   "location": "EnumaFreeAceessType.BrowserLaunch()"
 });
 formatter.result({
-  "duration": 15171948100,
+  "duration": 17297982100,
   "status": "passed"
 });
 formatter.match({
   "location": "EnumaFreeAceessType.Login()"
 });
 formatter.result({
-  "duration": 7965326800,
+  "duration": 8445692800,
   "status": "passed"
 });
 formatter.match({
   "location": "EnumaFreeAceessType.FreeAccess()"
 });
 formatter.result({
-  "duration": 10134730400,
+  "duration": 12547559400,
   "status": "passed"
 });
 formatter.match({
   "location": "EnumaFreeAceessType.PageDisplay()"
 });
 formatter.result({
-  "duration": 5049350900,
+  "duration": 5026771100,
   "status": "passed"
 });
 formatter.match({
   "location": "EnumaFreeAceessType.Headerdetails()"
 });
 formatter.result({
-  "duration": 3758757000,
+  "duration": 3700937600,
   "status": "passed"
 });
 formatter.scenario({
@@ -247,35 +247,35 @@ formatter.match({
   "location": "EnumaOtherFreeType.BrowserLaunch()"
 });
 formatter.result({
-  "duration": 19323467500,
+  "duration": 15327762100,
   "status": "passed"
 });
 formatter.match({
   "location": "EnumaOtherFreeType.Login()"
 });
 formatter.result({
-  "duration": 8404078300,
+  "duration": 8434514700,
   "status": "passed"
 });
 formatter.match({
   "location": "EnumaOtherFreeType.OtherFreeType()"
 });
 formatter.result({
-  "duration": 17614864300,
+  "duration": 17850281600,
   "status": "passed"
 });
 formatter.match({
   "location": "EnumaOtherFreeType.PageDisplay()"
 });
 formatter.result({
-  "duration": 4057250300,
+  "duration": 4049012700,
   "status": "passed"
 });
 formatter.match({
   "location": "EnumaOtherFreeType.HeaderDisplay()"
 });
 formatter.result({
-  "duration": 19602728600,
+  "duration": 20065325200,
   "status": "passed"
 });
 formatter.scenario({
@@ -315,35 +315,35 @@ formatter.match({
   "location": "EnumaPaidType.BrowserLaunch()"
 });
 formatter.result({
-  "duration": 18960740400,
+  "duration": 24901883400,
   "status": "passed"
 });
 formatter.match({
   "location": "EnumaPaidType.Login()"
 });
 formatter.result({
-  "duration": 8386305600,
+  "duration": 8923137600,
   "status": "passed"
 });
 formatter.match({
   "location": "EnumaPaidType.PaidType()"
 });
 formatter.result({
-  "duration": 15789772900,
+  "duration": 19097337700,
   "status": "passed"
 });
 formatter.match({
   "location": "EnumaPaidType.PageDisplay()"
 });
 formatter.result({
-  "duration": 4024954700,
+  "duration": 4032584700,
   "status": "passed"
 });
 formatter.match({
   "location": "EnumaPaidType.HeaderDisplay()"
 });
 formatter.result({
-  "duration": 19844156100,
+  "duration": 17885416700,
   "status": "passed"
 });
 });
