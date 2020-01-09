@@ -31,7 +31,7 @@ public final class EnumaFreeAceessType extends Base {
 
 	}
 
-	
+	//Login
 	@When("^enters the credentials to login$")
 	public void Login() throws Throwable {
 		driver.findElement(By.xpath("//a[text()='Login']")).click();
@@ -42,7 +42,7 @@ public final class EnumaFreeAceessType extends Base {
 		Thread.sleep(7000);
 
 	}
-
+//Free Access Courses displayed
 	
 			@And("^clicks on Free access type course in the Course dropdown\\.$")
 			public void FreeAccess() throws Throwable {
